@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useStaticQuery, graphql, Script } from "gatsby"
 import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
-import Header from "../../components/header"
+import Header from "../components/header"
 import Footer from "../components/layout"
 import SEO from "../components/seo"
 
