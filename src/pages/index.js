@@ -45,7 +45,7 @@ export default ({ data }) => {
               </div>
             </div>
             </Link>
-            <Link to="/best-surf-camps-spain">
+            <Link to="/travel/best-surf-camps-spain">
             <div className="relative h-64 bg-cover bg-center" style={{ backgroundImage: 'url("https://wp.surfawhile.com/wp-content/uploads/2024/01/glamping-tent-g5.2-cantabria-2-scaled.jpg")' }}>
               <div className="absolute inset-0 bg-black opacity-50"></div>
               <div className="relative z-10 flex items-center justify-center h-full">
@@ -58,7 +58,7 @@ export default ({ data }) => {
 
           {/* Second Row: 3 Columns */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-          <Link to="/best-surf-camps-portugal">
+          <Link to="/travel/best-surf-camps-portugal">
             <div className="relative h-64 bg-cover bg-center" style={{ backgroundImage: 'url("https://www.surfawhile.com/_gatsby/file/390a756b0a108704b46dcb1ec878b724/IMG_0247-scaled.jpg?u=https%3A%2F%2Fwp.surfawhile.com%2Fwp-content%2Fuploads%2F2024%2F01%2FIMG_0247-scaled.jpg")' }}>
               <div className="absolute inset-0 bg-black opacity-50"></div>
               <div className="relative z-10 flex items-center justify-center h-full">
