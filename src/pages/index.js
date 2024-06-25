@@ -2,7 +2,7 @@ import React, {  ChangeEvent, useEffect, useState } from 'react';
 import { Link} from "gatsby"
 import Header from "../components/header"
 import Footer from "../components/layout"
-import SEO from "../../components/seo"
+import SEO from "../components/seo"
 
 export default ({ data }) => {
   
