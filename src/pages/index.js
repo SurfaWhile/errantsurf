@@ -37,7 +37,7 @@ export default ({ data }) => {
         <div className="container mx-auto py-10">
           {/* First Row: 2 Columns */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link to="/best-surf-camps-france">
+            <Link to="/travel/best-surf-camps-france">
             <div className="relative h-64 bg-cover bg-center" style={{ backgroundImage: 'url("http://localhost:8000/static/835853a1b6610f61756ba1241d58a662/d04fa/NIC1579.webp")' }}>
               <div className="absolute inset-0 bg-black opacity-50"></div>
               <div className="relative z-10 flex items-center justify-center h-full">

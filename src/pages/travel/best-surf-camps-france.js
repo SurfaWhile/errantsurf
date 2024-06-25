@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link, useStaticQuery, graphql, Script } from "gatsby"
 import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
-import Header from "../components/header"
-import Footer from "../components/layout"
-import SEO from "../components/seo"
+import Header from "../../components/header"
+import Footer from "../../components/layout"
+import SEO from "../../components/seo"
 
 const BlogArticle = () => {
   return (
@@ -48,6 +48,7 @@ const BlogArticle = () => {
 
           <p className="text-gray-700 text-lg leading-relaxed my-4">
           Are you looking for a stylish surf camp that focuses on quality? Then the Dreamsea Surf Camp in Moliets is the perfect option for you! This internationally oriented surf camp in the lively Moliets is one of France's absolute hotspots during the summer. You stay in stylish tipi tents with made-up beds, which you share with other (solo) travelers or your friends. During your stay, meals, the use of surf equipment, and many activities are included in the price. You can optionally add surf lessons and/or yoga to your booking. This surf camp is very popular among solo travelers or groups of friends.          
+          Interested in the Dreamsea Surf Camp in Moliets? <a href="https://www.surfawhile.com/surfvakanties/frankrijk/dreamsea-surf-camp-moliets/">Read more</a>.
           </p>
 
           <h3 className="text-3xl my-2">Dreamsea Glamping Moliets</h3>
@@ -55,6 +56,7 @@ const BlogArticle = () => {
 
           <p className="text-gray-700 text-lg leading-relaxed my-4">
           The Dreamsea Glamping in Moliets is the more luxurious variant of the Dreamsea Surf Camp mentioned above. The Dreamsea Surf Camp consists of shared tents, while the Dreamsea Glamping features private tents. The Dreamsea Glamping has its own restaurant area and a yoga deck. The great thing about staying at the glamping is that you can participate in all the activities of the surf camp while still having the option to retreat to the glamping area. You stay in stylish private glamping tents, and meals and the use of surf equipment are included. Here, too, you can add surf lessons and/or yoga to your booking. The Dreamsea Glamping is popular among families, couples, and others seeking more privacy.          
+          Interested in the Dreamsea Glamping in Moliets? <a href="https://www.surfawhile.com/surfvakanties/frankrijk/dreamsea-glamping-moliets/">Read more</a>.
           </p>
 
           <h3 className="text-3xl my-2">Star Surf Camp Moliets</h3>
@@ -62,6 +64,7 @@ const BlogArticle = () => {
 
           <p className="text-gray-700 text-lg leading-relaxed my-4">
           Star Surf Camp in Moliets is one of the classics on the French coast. This internationally oriented surf camp is one of the largest in Europe, attracting people from all over the continent. The surf camp offers various types of accommodation, from budget options to comfortable bell tents. Most meals are always included during your stay, and once a week, there's a wine and cheese night. You can add surf lessons and/or a surf rental pack to your booking and participate in relaxing yoga sessions. This surf camp is known for its strong focus on (live) music performances. It is visited by internationally oriented solo travelers and groups of friends.          
+          Interested in Star Surf Camp in Moliets? <a href="https://www.surfawhile.com/surfvakanties/frankrijk/star-surf-camp-moliets/">Read more</a>.
           </p>
 
           <h3 className="text-3xl my-2">Star Surf Camp Moliets Deluxe</h3>
@@ -69,13 +72,15 @@ const BlogArticle = () => {
 
           <p className="text-gray-700 text-lg leading-relaxed my-4">
           Star Surf Camp Deluxe is the more comfortable sibling of Star Surf Camp in Moliets. This surf camp focuses on more quality private accommodation and offers high(er) quality lodging. The camp has a strong focus on surf & yoga, and you can enjoy healthy meals in a quieter environment compared to the main Star Surf Camp. The big advantage is that you can still participate in the activities organized at the main camp, like live music performances. Six breakfasts, six lunches, four dinners, and a wine & cheese night are always included during your stay, along with many activities. Surf lessons, surf rental, and yoga can be optionally added. This surf camp is popular among internationally oriented couples, families, and groups of friends looking for more privacy and comfort. 
+          Interested in Star Surf Camp Deluxe in Moliets? <a href="https://www.surfawhile.com/surfvakanties/frankrijk/star-surf-camp-moliets-deluxe/">Read more</a>.
           </p>
 
           <h3 className="text-3xl my-2">SURFinn Vieux Boucau</h3>
           <StaticImage src="https://www.surfawhile.com/_gatsby/image/9818d92f53194a047ad6289adbf53901/538bbe1427eb7514d4f6e7cdacce2380/VB_front-scaled.jpg?u=https%3A%2F%2Fwp.surfawhile.com%2Fwp-content%2Fuploads%2F2022%2F12%2FVB_front-scaled.jpg&a=w%3D2048%26h%3D1366%26fm%3Djpg%26q%3D90&cd=2022-12-28T15%3A14%3A42"/>
 
           <p className="text-gray-700 text-lg leading-relaxed my-4">
-          Are you looking for a surfing holiday in France but prefer staying in a comfortable bed & breakfast? Look no further than SURFinn Vieux Boucau. This delightful surf bed & breakfast in the charming town of Vieux Boucau offers various types of rooms suitable for different kinds of travelers. The surf bed & breakfast features a lovely garden with a swimming pool to relax after a good surf session. Breakfast is always included, and you can enjoy delicious evening meals several times a week. You can add surf lessons and/or surf rental to your booking. The beach of Vieux Boucau is within walking distance of the SURFinn.
+          Are you looking for a surfing holiday in France but prefer staying in a comfortable bed &amp; breakfast? Look no further than SURFinn Vieux Boucau. This delightful surf bed & breakfast in the charming town of Vieux Boucau offers various types of rooms suitable for different kinds of travelers. The surf bed & breakfast features a lovely garden with a swimming pool to relax after a good surf session. Breakfast is always included, and you can enjoy delicious evening meals several times a week. You can add surf lessons and/or surf rental to your booking. The beach of Vieux Boucau is within walking distance of the SURFinn.
+          Interested in the SURFinn in Vieux Boucau? <a href="https://www.surfawhile.com/surfvakanties/frankrijk/surfinn-vieux-boucau/">Read more</a>.
           </p>
 
           <p className="text-gray-700 text-lg leading-relaxed my-4">
