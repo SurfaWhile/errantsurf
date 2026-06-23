@@ -24,7 +24,7 @@ export default ({ data }) => {
         <div className="relative bg-cover bg-center h-screen" style={{ backgroundImage: 'url("https://wp.surfawhile.com/wp-content/uploads/2023/01/austin-neill-uHD0uyp79Dg-unsplash-1-scaled.jpg")' }}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative z-10 flex items-center justify-center h-full">
-            <div className="text-center">  <h1 className="text-white text-4xl md:text-6xl font-bold mb-4">Welcome to Errant Surf Travel Magazine</h1>
+            <div className="text-center">  <h1 className="text-white text-4xl md:text-6xl font-bold mb-4">Welcome to the Errant Surf Travel Magazine</h1>
             <p className="text-white text-lg md:text-2xl mb-8">Your source for high quality surf &amp; travel</p>
             <a href="#content" className="bg-blue-500 text-white py-3 px-6 rounded-lg text-lg hover:bg-blue-700 transition duration-300">Explore Now</a>
            </div>
